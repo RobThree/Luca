@@ -70,26 +70,15 @@ h1 {
 }
 
 .site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top;
+    bottom: 15%;
+    position: absolute;
+    width: 100%;
 }
 
 .inner {
     background-color: rgba(0,0,0,.3);
     padding: 5px;
 }
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-    /* Start the vertical centering */
-    .site-wrapper-inner {
-        vertical-align: middle;
-    }
-}
-
 
 /* ==========================================================================
    Print styles.
