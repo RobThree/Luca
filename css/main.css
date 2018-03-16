@@ -47,6 +47,15 @@ body {
     text-align: center;
 }
 
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+    a:hover {
+        color: #eee;
+    }
+
 h1 {
     color: #7FBA00;
     letter-spacing: 8px;
